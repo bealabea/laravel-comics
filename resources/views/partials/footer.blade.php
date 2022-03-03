@@ -1,14 +1,16 @@
+{{-- richiamo da config l'array della navbar --}}
+@php
+    $navbar = config('navbar-items');
+@endphp
+
 <div class="footer-container">
     <div class="footer-nav">
         <ul>
             <li><h3>DC COMICS</h3></li>
-            <li> <a href="#"> Caracters </a></li>
-            <li> <a href="#"> Comics </a></li>
-            <li> <a href="#"> Movies </a></li>
-            <li> <a href="#"> Tv </a></li>
-            <li> <a href="#"> Games </a></li>
-            <li> <a href="#"> Videos </a></li>
-            <li> <a href="#"> News </a></li>
+            {{-- foreach per gli elementi della navbar che sono ripetuti nel footer --}}
+            @foreach($navbar as $key => $item)
+            <li> <a href="{{route($key)}}"> {{$item}} </a></li>
+            @endforeach
             
             <li><h3>SHOP</h3></li>
             <li> <a href="#"> Shop DC </a></li>

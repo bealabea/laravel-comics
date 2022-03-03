@@ -13,10 +13,13 @@
         {{-- uso la stessa navbar per tutte le pagine --}}
         @include('partials.navbar')
     </header>
+
     <div class="jumbo"></div>
+
     <main>
         @yield('mainContent') 
     </main>
+
     <footer>
         {{-- uso lo stesso footer per tutte le pagine --}}
         @include('partials.footer')
