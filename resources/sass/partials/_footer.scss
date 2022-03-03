@@ -1,0 +1,36 @@
+footer {
+    height: 400px;
+    background: url("/img/footer-bg.jpg") no-repeat top;
+    background-size: cover;
+    .footer-container {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        overflow: hidden;
+        .logo-img {
+            align-self: center;
+            img {
+                width: 600px;
+            }
+        }
+        .footer-nav {
+            display: flex;
+            ul{
+                margin: 25px 50px 0 0;
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    color: #b9b9b9;
+                    line-height: 23px;
+                    &:hover {
+                        color: #fff;
+                    }
+                }
+            }
+            h3{
+                margin: 15px 0;
+            }
+        }
+    }
+}

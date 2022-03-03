@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+.header {
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .logo-header {
+  padding: 20px;
+}
+
+.header .logo-header img {
+  width: 60px;
+}
+
+.header nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.header nav ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 36px 20px;
+  color: #1c1c1c;
+  cursor: pointer;
+}
+
+.header nav ul a:hover {
+  color: #0282f9;
+  border-bottom: 5px #0282f9 solid;
+  font-weight: 700;
+}
+
+.jumbo {
+  height: 500px;
+  background: url("/img/jumbotron.jpg") no-repeat top;
+  background-size: cover;
+}
+
+main {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+main .section-title {
+  position: relative;
+  top: -25px;
+  left: 200px;
+  width: 300px;
+  padding: 10px;
+  background-color: #0282f9;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+main .button-cards {
+  text-align: center;
+  padding: 20px;
+}
+
+main .button-cards button {
+  padding: 10px 50px;
+  border: none;
+  background-color: #0282f9;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  height: 400px;
+  background: url("/img/footer-bg.jpg") no-repeat top;
+  background-size: cover;
+}
+
+footer .footer-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+footer .footer-container .logo-img {
+  align-self: center;
+}
+
+footer .footer-container .logo-img img {
+  width: 600px;
+}
+
+footer .footer-container .footer-nav {
+  display: flex;
+}
+
+footer .footer-container .footer-nav ul {
+  margin: 25px 50px 0 0;
+  list-style: none;
+}
+
+footer .footer-container .footer-nav ul a {
+  text-decoration: none;
+  color: #b9b9b9;
+  line-height: 23px;
+}
+
+footer .footer-container .footer-nav ul a:hover {
+  color: #fff;
+}
+
+footer .footer-container .footer-nav h3 {
+  margin: 15px 0;
+}
+
