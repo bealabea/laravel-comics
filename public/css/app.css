@@ -81,6 +81,68 @@ main .button-cards button {
   cursor: pointer;
 }
 
+.main-container {
+  width: 1350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main-container .cards {
+  width: 200px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.main-container .cards .card-image {
+  margin: 20px 0 15px 0;
+  height: 200px;
+  overflow: hidden;
+}
+
+.main-container .cards .card-image img {
+  width: 100%;
+}
+
+section {
+  height: 200px;
+  background-color: #0282f9;
+  display: flex;
+  align-items: center;
+}
+
+section .container {
+  width: 80%;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section .container .info-shop {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  z-index: 1000;
+}
+
+section .container .info-shop img {
+  height: 100%;
+}
+
+section .container .info-shop .shop-text {
+  padding-left: 20px;
+  color: #fff;
+}
+
+section .container .visa img {
+  width: 70px;
+}
+
 footer {
   height: 400px;
   background: url("/img/footer-bg.jpg") no-repeat top;
@@ -115,7 +177,7 @@ footer .footer-container .footer-nav ul {
 footer .footer-container .footer-nav ul a {
   text-decoration: none;
   color: #b9b9b9;
-  line-height: 23px;
+  line-height: 22px;
 }
 
 footer .footer-container .footer-nav ul a:hover {
@@ -126,28 +188,44 @@ footer .footer-container .footer-nav h3 {
   margin: 15px 0;
 }
 
-.main-container {
-  width: 1350px;
+.social-bg {
+  height: 100px;
+  background-color: #333;
+  position: relative;
+}
+
+.social-bg .footer-social {
+  height: 100%;
+  width: 80%;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
-.main-container .cards {
-  width: 200px;
-  text-transform: uppercase;
-  margin-bottom: 20px;
+.social-bg .footer-social button {
+  padding: 10px;
+  border: 2px #0282f9 solid;
+  outline: none;
+  background-color: #333;
+  color: #fff;
   cursor: pointer;
 }
 
-.main-container .cards .card-image {
-  margin: 20px 0 15px 0;
-  height: 200px;
-  overflow: hidden;
+.social-bg .footer-social .social-icons {
+  display: flex;
+  align-items: center;
 }
 
-.main-container .cards .card-image img {
-  width: 100%;
+.social-bg .footer-social .social-icons div {
+  margin-right: 20px;
+  color: #0282f9;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.social-bg .footer-social .social-icons img {
+  margin: 0 10px;
+  cursor: pointer;
 }
 

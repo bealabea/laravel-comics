@@ -18,7 +18,32 @@
     @endforeach
     
 </div>
-    <div class="button-cards">
-        <button> LOAD MORE</button>
+<div class="button-cards">
+    <button> LOAD MORE</button>
+</div>
+
+<section>
+    <div class="container">
+        <div class="info-shop">
+            <img src="/img/buy-comics-digital-comics.png" alt="">
+            <div class="shop-text"> DIGITAL COMICS </div>
+        </div>
+        <div class="info-shop">
+            <img src="/img/buy-comics-merchandise.png" alt="">
+            <div class="shop-text"> DC MERCHANDISE </div>
+        </div>
+        <div class="info-shop">
+            <img src="/img/buy-comics-subscriptions.png" alt="">
+            <div class="shop-text"> SUBSCRIPTION </div>
+        </div>
+        <div class="info-shop">
+            <img src="/img/buy-comics-shop-locator.png" alt="">
+            <div class="shop-text"> COMIC SHOP LOCATOR </div>
+        </div>
+        <div class="info-shop visa">
+            <img src="/img/buy-dc-power-visa.svg" alt="">
+            <div class="shop-text"> DC POWER VISA </div>
+        </div>
     </div>
+</section>
 @endsection

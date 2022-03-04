@@ -43,3 +43,19 @@
         <img src={{"img/dc-logo-bg.png"}} alt="">
     </div>
 </div>
+
+<section class="social-bg">
+    <div class="footer-social">
+        <div>
+            <button>SIGN-UP NOW</button>
+        </div>
+        <div class="social-icons">
+            <div>FOLLOW US</div>
+            <img src="/img/footer-facebook.png" alt="">
+            <img src="/img/footer-twitter.png" alt="">
+            <img src="/img/footer-youtube.png" alt="">
+            <img src="/img/footer-pinterest.png" alt="">
+            <img src="/img/footer-periscope.png" alt="">
+        </div> 
+    </div>
+</section>
