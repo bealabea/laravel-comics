@@ -13,9 +13,7 @@
         {{-- uso la stessa navbar per tutte le pagine --}}
         @include('partials.navbar')
     </header>
-
-    <div class="jumbo"></div>
-
+    
     <main>
         @yield('mainContent') 
     </main>

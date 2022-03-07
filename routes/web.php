@@ -22,6 +22,8 @@ Route::get('/comics', function () {
     return view('comics', compact("data"));
 })->name('comics');
 
+Route::get('/comics/{id}', 'ComicDetailController@read')->name('comic.details');
+
 Route::view('/characters', 'characters')->name('characters');
 Route::view('/movies', 'movies')->name('movies');
 Route::view('/tv', 'tv')->name('tv');

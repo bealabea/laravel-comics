@@ -5,18 +5,22 @@
 @section('pageTitle', 'Comics');
 
 @section('mainContent')
-<div class="section-title"><h1>current series</h1></div>
+<div class="jumbo">
+    <div class="section-title"><h1>current series</h1></div>
+</div>
 <div class="main-container">
+    <div class="card-container">
 
-    @foreach($data as $card)
-    <div class="cards">
-        <div class="card-image">
-            <img src="{{$card['thumb']}}" alt="">
-        </div>
-        <div>{{$card['series']}}</div>
-    </div> 
-    @endforeach
+        @foreach($data as $card)
+        <a class="card-link" href="{{route('comic.details', $loop->index)}}"><div class="cards">
+            <div class="card-image">
+                <img src="{{$card['thumb']}}" alt="">
+            </div>
+            <div>{{$card['series']}}</div>
+        </div> </a>
+        @endforeach
     
+    </div>
 </div>
 <div class="button-cards">
     <button> LOAD MORE</button>

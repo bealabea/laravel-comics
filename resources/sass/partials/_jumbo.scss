@@ -2,4 +2,16 @@
     height: 500px;
     background: url("/img/jumbotron.jpg") no-repeat top;
     background-size: cover;
+    position: relative;
+    .section-title {
+        position: absolute;
+        bottom: -30px;
+        left: 200px;
+        width: 300px;
+        padding: 10px;
+        background-color: #0282f9;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff;
+    }
 }

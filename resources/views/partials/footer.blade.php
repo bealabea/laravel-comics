@@ -40,7 +40,7 @@
         </ul>
     </div>
     <div class="logo-img">
-        <img src={{"img/dc-logo-bg.png"}} alt="">
+        <img src={{"/img/dc-logo-bg.png"}} alt="">
     </div>
 </div>
 
