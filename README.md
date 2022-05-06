@@ -1,6 +1,6 @@
-# DC Comics website with Laravel
+# DC Comics details with Laravel
 
-<p align="center"><img src="https://user-images.githubusercontent.com/89645358/167088116-88bd7806-8905-4d6b-bda0-592d3f8977e3.png" width="400"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/89645358/167097548-5417302b-9257-4990-bcb8-a75b32a4aee4.gif" width="600px"></p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
